@@ -1,0 +1,47 @@
+@{
+    ViewData["Title"] = "Signup";
+}
+
+<h1>Signup</h1>
+
+<form asp-action="Signup" method="post">
+    <div>
+        <label>Email:</label>
+        <input type="email" name="Email" required />
+    </div>
+    <div>
+        <label>First Name:</label>
+        <input type="text" name="FirstName" required />
+    </div>
+    <div>
+        <label>Last Name:</label>
+        <input type="text" name="LastName" required />
+    </div>
+    <div>
+        <label>Country:</label>
+        <select name="CountryId" required>
+        <option value="">Select a Country</option>
+        @if (ViewBag.Countries != null && ViewBag.Countries.Any())
+        {
+            foreach (var country in ViewBag.Countries)
+            {
+                <option value="@country.Id">@country.Name</option>
+            }
+        }
+        else
+        {
+            <option value="">No countries available</option>
+        }
+</select>
+
+    </div>
+    <div>
+        <label>Password:</label>
+        <input type="password" name="Password" required />
+    </div>
+    <div>
+        <label>Confirm Password:</label>
+        <input type="password" name="ConfirmPassword" required />
+    </div>
+    <button type="submit">Signup</button>
+</form>
