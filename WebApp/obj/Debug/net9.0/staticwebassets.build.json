@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oM4KBelXDbsnaSfKRQBeaM1plfUUxcHohE0BOvqfnVc=",
+  "Hash": "kGnJwA4A8l9u+67p8qX704xG3Gosndh7hkR6N5nV4xE=",
   "Source": "WebApp",
   "BasePath": "_content/WebApp",
   "Mode": "Default",
@@ -542,12 +542,12 @@
       "OriginalItemSpec": "C:\\Users\\lflores47\\OneDrive - Texas A&M University-Corpus Christi\\Documents\\Code\\Internet Programming\\Lflores47_WebApp-Db\\WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\lflores47\\OneDrive - Texas A&M University-Corpus Christi\\Documents\\Code\\Internet Programming\\Lflores47_WebApp-Db\\WebApp\\obj\\Debug\\net9.0\\compressed\\fspdjdrw69-0lguneu7vu.gz",
+      "Identity": "C:\\Users\\lflores47\\OneDrive - Texas A&M University-Corpus Christi\\Documents\\Code\\Internet Programming\\Lflores47_WebApp-Db\\WebApp\\obj\\Debug\\net9.0\\compressed\\fspdjdrw69-b9sayid5wm.gz",
       "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lflores47\\OneDrive - Texas A&M University-Corpus Christi\\Documents\\Code\\Internet Programming\\Lflores47_WebApp-Db\\WebApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/WebApp",
-      "RelativePath": "css/site#[.{fingerprint=0lguneu7vu}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=b9sayid5wm}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -556,8 +556,8 @@
       "RelatedAsset": "C:\\Users\\lflores47\\OneDrive - Texas A&M University-Corpus Christi\\Documents\\Code\\Internet Programming\\Lflores47_WebApp-Db\\WebApp\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "fkxrtrzqqy",
-      "Integrity": "UeTRKOwk1NqIeEFz5PbjjEBfpDfFZk55J2fbIZREQ7E=",
+      "Fingerprint": "0suozzrugb",
+      "Integrity": "0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\lflores47\\OneDrive - Texas A&M University-Corpus Christi\\Documents\\Code\\Internet Programming\\Lflores47_WebApp-Db\\WebApp\\wwwroot\\css\\site.css"
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "0lguneu7vu",
-      "Integrity": "jEGJWdyW74Orwg07zEfc/PC55dEYMrPv7g/2YKqbJVE=",
+      "Fingerprint": "b9sayid5wm",
+      "Integrity": "j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -2728,13 +2728,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.0lguneu7vu.css",
-      "AssetFile": "C:\\Users\\lflores47\\OneDrive - Texas A&M University-Corpus Christi\\Documents\\Code\\Internet Programming\\Lflores47_WebApp-Db\\WebApp\\obj\\Debug\\net9.0\\compressed\\fspdjdrw69-0lguneu7vu.gz",
+      "Route": "css/site.b9sayid5wm.css",
+      "AssetFile": "C:\\Users\\lflores47\\OneDrive - Texas A&M University-Corpus Christi\\Documents\\Code\\Internet Programming\\Lflores47_WebApp-Db\\WebApp\\obj\\Debug\\net9.0\\compressed\\fspdjdrw69-b9sayid5wm.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002645502646"
+          "Quality": "0.003134796238"
         }
       ],
       "ResponseHeaders": [
@@ -2744,15 +2744,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "377"
+          "Value": "318"
         },
         {
           "Name": "ETag",
-          "Value": "\"UeTRKOwk1NqIeEFz5PbjjEBfpDfFZk55J2fbIZREQ7E=\""
+          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 13 Nov 2024 22:16:30 GMT"
+          "Value": "Wed, 13 Nov 2024 19:07:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2772,13 +2772,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"jEGJWdyW74Orwg07zEfc/PC55dEYMrPv7g/2YKqbJVE=\""
+          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "0lguneu7vu"
+          "Value": "b9sayid5wm"
         },
         {
           "Name": "label",
@@ -2786,12 +2786,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-jEGJWdyW74Orwg07zEfc/PC55dEYMrPv7g/2YKqbJVE="
+          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
         }
       ]
     },
     {
-      "Route": "css/site.0lguneu7vu.css",
+      "Route": "css/site.b9sayid5wm.css",
       "AssetFile": "C:\\Users\\lflores47\\OneDrive - Texas A&M University-Corpus Christi\\Documents\\Code\\Internet Programming\\Lflores47_WebApp-Db\\WebApp\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2801,7 +2801,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "802"
+          "Value": "667"
         },
         {
           "Name": "Content-Type",
@@ -2809,11 +2809,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jEGJWdyW74Orwg07zEfc/PC55dEYMrPv7g/2YKqbJVE=\""
+          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 13 Nov 2024 22:16:30 GMT"
+          "Value": "Wed, 13 Nov 2024 19:07:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2823,7 +2823,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "0lguneu7vu"
+          "Value": "b9sayid5wm"
         },
         {
           "Name": "label",
@@ -2831,13 +2831,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-jEGJWdyW74Orwg07zEfc/PC55dEYMrPv7g/2YKqbJVE="
+          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
         }
       ]
     },
     {
-      "Route": "css/site.0lguneu7vu.css.gz",
-      "AssetFile": "C:\\Users\\lflores47\\OneDrive - Texas A&M University-Corpus Christi\\Documents\\Code\\Internet Programming\\Lflores47_WebApp-Db\\WebApp\\obj\\Debug\\net9.0\\compressed\\fspdjdrw69-0lguneu7vu.gz",
+      "Route": "css/site.b9sayid5wm.css.gz",
+      "AssetFile": "C:\\Users\\lflores47\\OneDrive - Texas A&M University-Corpus Christi\\Documents\\Code\\Internet Programming\\Lflores47_WebApp-Db\\WebApp\\obj\\Debug\\net9.0\\compressed\\fspdjdrw69-b9sayid5wm.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2846,7 +2846,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "377"
+          "Value": "318"
         },
         {
           "Name": "Content-Type",
@@ -2854,11 +2854,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UeTRKOwk1NqIeEFz5PbjjEBfpDfFZk55J2fbIZREQ7E=\""
+          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 13 Nov 2024 22:16:30 GMT"
+          "Value": "Wed, 13 Nov 2024 19:07:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2876,7 +2876,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "0lguneu7vu"
+          "Value": "b9sayid5wm"
         },
         {
           "Name": "label",
@@ -2884,18 +2884,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-UeTRKOwk1NqIeEFz5PbjjEBfpDfFZk55J2fbIZREQ7E="
+          "Value": "sha256-0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y="
         }
       ]
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\lflores47\\OneDrive - Texas A&M University-Corpus Christi\\Documents\\Code\\Internet Programming\\Lflores47_WebApp-Db\\WebApp\\obj\\Debug\\net9.0\\compressed\\fspdjdrw69-0lguneu7vu.gz",
+      "AssetFile": "C:\\Users\\lflores47\\OneDrive - Texas A&M University-Corpus Christi\\Documents\\Code\\Internet Programming\\Lflores47_WebApp-Db\\WebApp\\obj\\Debug\\net9.0\\compressed\\fspdjdrw69-b9sayid5wm.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002645502646"
+          "Quality": "0.003134796238"
         }
       ],
       "ResponseHeaders": [
@@ -2905,15 +2905,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "377"
+          "Value": "318"
         },
         {
           "Name": "ETag",
-          "Value": "\"UeTRKOwk1NqIeEFz5PbjjEBfpDfFZk55J2fbIZREQ7E=\""
+          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 13 Nov 2024 22:16:30 GMT"
+          "Value": "Wed, 13 Nov 2024 19:07:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2933,13 +2933,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"jEGJWdyW74Orwg07zEfc/PC55dEYMrPv7g/2YKqbJVE=\""
+          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-jEGJWdyW74Orwg07zEfc/PC55dEYMrPv7g/2YKqbJVE="
+          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
         }
       ]
     },
@@ -2954,7 +2954,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "802"
+          "Value": "667"
         },
         {
           "Name": "Content-Type",
@@ -2962,11 +2962,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jEGJWdyW74Orwg07zEfc/PC55dEYMrPv7g/2YKqbJVE=\""
+          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 13 Nov 2024 22:16:30 GMT"
+          "Value": "Wed, 13 Nov 2024 19:07:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2976,13 +2976,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-jEGJWdyW74Orwg07zEfc/PC55dEYMrPv7g/2YKqbJVE="
+          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\lflores47\\OneDrive - Texas A&M University-Corpus Christi\\Documents\\Code\\Internet Programming\\Lflores47_WebApp-Db\\WebApp\\obj\\Debug\\net9.0\\compressed\\fspdjdrw69-0lguneu7vu.gz",
+      "AssetFile": "C:\\Users\\lflores47\\OneDrive - Texas A&M University-Corpus Christi\\Documents\\Code\\Internet Programming\\Lflores47_WebApp-Db\\WebApp\\obj\\Debug\\net9.0\\compressed\\fspdjdrw69-b9sayid5wm.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2991,7 +2991,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "377"
+          "Value": "318"
         },
         {
           "Name": "Content-Type",
@@ -2999,11 +2999,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UeTRKOwk1NqIeEFz5PbjjEBfpDfFZk55J2fbIZREQ7E=\""
+          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 13 Nov 2024 22:16:30 GMT"
+          "Value": "Wed, 13 Nov 2024 19:07:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3021,7 +3021,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-UeTRKOwk1NqIeEFz5PbjjEBfpDfFZk55J2fbIZREQ7E="
+          "Value": "sha256-0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y="
         }
       ]
     },
@@ -21310,7 +21310,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 13 Nov 2024 22:01:15 GMT"
+          "Value": "Wed, 13 Nov 2024 19:29:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21363,7 +21363,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 13 Nov 2024 22:01:15 GMT"
+          "Value": "Wed, 13 Nov 2024 19:29:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21400,7 +21400,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 13 Nov 2024 22:01:15 GMT"
+          "Value": "Wed, 13 Nov 2024 19:29:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21447,7 +21447,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 13 Nov 2024 22:01:15 GMT"
+          "Value": "Wed, 13 Nov 2024 19:29:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21508,7 +21508,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 13 Nov 2024 22:01:15 GMT"
+          "Value": "Wed, 13 Nov 2024 19:29:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21553,7 +21553,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 13 Nov 2024 22:01:15 GMT"
+          "Value": "Wed, 13 Nov 2024 19:29:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21608,7 +21608,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 13 Nov 2024 22:01:15 GMT"
+          "Value": "Wed, 13 Nov 2024 19:29:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21669,7 +21669,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 13 Nov 2024 22:01:15 GMT"
+          "Value": "Wed, 13 Nov 2024 19:29:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21714,7 +21714,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 13 Nov 2024 22:01:15 GMT"
+          "Value": "Wed, 13 Nov 2024 19:29:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21769,7 +21769,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 13 Nov 2024 22:01:15 GMT"
+          "Value": "Wed, 13 Nov 2024 19:29:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21822,7 +21822,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 13 Nov 2024 22:01:15 GMT"
+          "Value": "Wed, 13 Nov 2024 19:29:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21859,7 +21859,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 13 Nov 2024 22:01:15 GMT"
+          "Value": "Wed, 13 Nov 2024 19:29:23 GMT"
         },
         {
           "Name": "Cache-Control",
