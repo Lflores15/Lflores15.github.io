@@ -20,14 +20,11 @@ namespace WebApp.Controllers
 
         public IActionResult Signup()
         {
-            // Get the list of countries from the database
-            var countries = _context.Countries.ToList();
-
-            // Pass the list to the view using ViewBag
+            var countries = _context.Countries.ToList(); // assuming you're using EF Core
             ViewBag.Countries = countries;
-
             return View();
         }
+
 
         public IActionResult Login()
         {
