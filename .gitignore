@@ -1,0 +1,5 @@
+#Use appsettings.Development.json to setup the information
+appsettings.json
+
+#Use .env.dev to setup the environment variables 
+.env

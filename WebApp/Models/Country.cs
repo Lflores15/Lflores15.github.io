@@ -1,11 +1,10 @@
 using System.ComponentModel.DataAnnotations;
+using WebApp.Models;
 
-namespace WebApp.Models
+public class Country
 {
-    public class Country
-    {
-        public int Id { get; set; }
-        [Required]
-        public string Name { get; set; }
-    }
+    public int Id { get; set; }
+    public string Name { get; set; }
+
+    public ICollection<User> Users { get; set; }  // Navigation property
 }

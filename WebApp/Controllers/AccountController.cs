@@ -2,22 +2,26 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using WebApp.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+using System.Linq;
+using System.Threading.Tasks;
 
 public class AccountController : Controller
 {
     private readonly WebAppDbContext _context;
     private readonly ILogger<AccountController> _logger;
+    private readonly IPasswordHasher<User> _passwordHasher;
 
-    public AccountController(WebAppDbContext context, ILogger<AccountController> logger)
+    public AccountController(WebAppDbContext context, ILogger<AccountController> logger, IPasswordHasher<User> passwordHasher)
     {
         _context = context;
         _logger = logger;
+        _passwordHasher = passwordHasher;
     }
 
     // GET: Signup
     public IActionResult Signup()
     {
-        // Pass the list of countries to the view
         ViewBag.Countries = _context.Countries.ToList();
         return View();
     }
@@ -26,67 +30,92 @@ public class AccountController : Controller
     [HttpPost]
     public async Task<IActionResult> Signup(User model)
     {
-        // Step 1: Check if model is valid
-        if (ModelState.IsValid)
+        if (!ModelState.IsValid)
         {
-            // Step 2: Password validation
-            if (model.Password != model.ConfirmPassword)
+            foreach (var modelStateKey in ModelState.Keys)
             {
-                // Password mismatch error
-                ViewData["ConfirmPasswordError"] = "Passwords do not match.";
-                ViewBag.Countries = await _context.Countries.ToListAsync();
-                return View(model);
+                var value = ModelState[modelStateKey];
+                foreach (var error in value.Errors)
+                {
+                    _logger.LogError($"Validation error in {modelStateKey}: {error.ErrorMessage}");
+                }
             }
 
-            // Step 3: Check if email already exists
-            var existingUser = await _context.Users.FirstOrDefaultAsync(u => u.Email == model.Email);
-            if (existingUser != null)
-            {
-                // Email exists error
-                ViewData["EmailError"] = "Email is already taken.";
-                ViewBag.Countries = await _context.Countries.ToListAsync();
-                return View(model);
-            }
+            ViewBag.Countries = _context.Countries.ToList();
+            return View(model);
+        }
 
-            // Step 4: Create a new user
+        if (_context.Users.Any(u => u.Email == model.Email))
+        {
+            ModelState.AddModelError("Email", "This email is already registered.");
+            ViewBag.Countries = _context.Countries.ToList();
+            return View(model);
+        }
+
+        try
+        {
+            var hashedPassword = _passwordHasher.HashPassword(model, model.Password);
+
             var newUser = new User
             {
                 Email = model.Email,
                 FirstName = model.FirstName,
                 LastName = model.LastName,
-                Password = model.Password, // In a real app, hash the password before saving
-                CountryId = model.CountryId
+                CountryId = model.CountryId,
+                Password = hashedPassword // Store hashed password
             };
 
-            try
-            {
-                // Step 5: Save the new user to the database
-                _context.Users.Add(newUser);
-                await _context.SaveChangesAsync();
+            _context.Users.Add(newUser);
+            await _context.SaveChangesAsync();
 
-                // Step 6: Log the successful signup
-                _logger.LogInformation($"New user signed up: {model.Email}");
-
-                // Step 7: Redirect to the Login page
-                return RedirectToAction("Login", "Account");
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError($"Error saving user to database: {ex.Message}");
-                ViewData["DatabaseError"] = "There was an error saving your information.";
-                ViewBag.Countries = await _context.Countries.ToListAsync();
-                return View(model);
-            }
+            _logger.LogInformation($"New user signed up: {model.Email}");
+            return RedirectToAction("SignupSuccessful", "Account");
         }
-
-        // Log validation errors if the model is not valid
-        foreach (var error in ModelState.Values.SelectMany(v => v.Errors))
+        catch (Exception ex)
         {
-            _logger.LogWarning("ModelState Error: " + error.ErrorMessage);
+            _logger.LogError($"Error saving user to database: {ex.Message}");
+            ViewData["DatabaseError"] = "An error occurred while saving your information. Please try again.";
+            ViewBag.Countries = _context.Countries.ToList();
+            return View(model);
+        }
+    }
+
+    // GET: SignupSuccessful
+    public IActionResult SignupSuccessful()
+    {
+        return View();
+    }
+
+    // GET: Login
+    public IActionResult Login()
+    {
+        return View();
+    }
+
+    // POST: Login
+    [HttpPost]
+    public async Task<IActionResult> Login(string email, string password)
+    {
+        var user = await _context.Users.SingleOrDefaultAsync(u => u.Email == email);
+
+        if (user == null)
+        {
+            ViewData["LoginError"] = "Invalid email or password.";
+            return View();
         }
 
-        // If validation fails, pass countries back to the view
-        ViewBag.Countries = await _context.Countries.ToListAsync();
-        return View(model);
+        var result = _passwordHasher.VerifyHashedPassword(user, user.Password, password);
+        if (result == PasswordVerificationResult.Failed)
+        {
+            ViewData["LoginError"] = "Invalid email or password.";
+            return View();
+        }
+
+        // Authentication successful
+        // You can implement session/cookie-based login here
+        _logger.LogInformation($"User logged in: {email}");
+
+        // Redirect to a protected area, like the homepage or user dashboard
+        return RedirectToAction("Index", "Home");
     }
 }
