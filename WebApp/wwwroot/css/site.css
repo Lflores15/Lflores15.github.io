@@ -1,31 +1,132 @@
-html {
-  font-size: 14px;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
+/* General Body Styles */
 body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9fafb;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Container for Homepage Content */
+.homepage-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: calc(100vh - 100px);
+  padding-top: 70px;
+  background-color: #f9fafb;
+  box-sizing: border-box;
+}
+
+/* Content Box Styling */
+.content-box {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
   margin-bottom: 60px;
 }
 
-.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
-  color: var(--bs-secondary-color);
-  text-align: end;
+.content-box h1 {
+  color: #4CAF50;
+  margin-bottom: 25px;
+  font-size: 2rem;
+  font-weight: 600;
 }
 
-.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
-  text-align: start;
+.content-box p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  line-height: 1.8;
+  color: #555;
+}
+
+/* Button Container Styling */
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* General Styles for Buttons */
+.button-container button {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Specific styles for the homepage buttons */
+.homepage-btn {
+  margin-top: 20px; /* Add margin specifically for homepage buttons */
+}
+
+/* Button Styling for Primary Button (Homepage) */
+.button-container .btn-primary {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button-container .btn-primary:hover {
+  background-color: #45a049;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Button Styling for Secondary Button (Homepage) */
+.button-container .btn-secondary {
+  background-color: #007BFF;
+  color: white;
+}
+
+.button-container .btn-secondary:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer Styling */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 60px;
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+  font-size: 0.9rem;
+}
+
+/* Button Styles for Primary */
+.btn-primary {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 12px 25px;
+  color: #fff;
+  margin-top: 20px;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.btn-primary:hover {
+  background-color: #45a049;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary:active {
+  background-color: #3e8e41;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3);
 }

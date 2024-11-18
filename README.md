@@ -4,15 +4,20 @@ This program is designed to test the signin/login features within an ASP.NET Cor
 
 ## Requirements
 
+## Development
+duplicate the appsettingsDevelopment.json changing the name to appsettings.json
+
 ### Dotnet Packages
 
 To install the required .NET packages, run the following commands in the terminal:
 
 ```bash
-dotnet add package Microsoft.AspNetCore.Identity --version 2.2.0
-dotnet add package Microsoft.EntityFrameworkCore --version 9.0.0
-dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 9.0.0
-dotnet add package Microsoft.EntityFrameworkCore.Tools --version 9.0.0
+dotnet add package Microsoft.AspNetCore.Identity
+dotnet add package Microsoft.EntityFrameworkCore 
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer 
+dotnet add package Microsoft.EntityFrameworkCore.Tools
+dotnet add package System.ComponentModel.Annotations
+dotnet add package NETStandard.Library
 ```
 
 Running the App

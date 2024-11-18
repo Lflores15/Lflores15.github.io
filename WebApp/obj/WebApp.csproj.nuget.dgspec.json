@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lflores47\\OneDrive - Texas A&M University-Corpus Christi\\Documents\\Code\\Internet Programming\\Lflores47_WebApp-Db\\WebApp\\WebApp.csproj": {}
+    "E:\\CODE\\New folder\\Lflores47_WebApp-Db\\WebApp\\WebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lflores47\\OneDrive - Texas A&M University-Corpus Christi\\Documents\\Code\\Internet Programming\\Lflores47_WebApp-Db\\WebApp\\WebApp.csproj": {
+    "E:\\CODE\\New folder\\Lflores47_WebApp-Db\\WebApp\\WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lflores47\\OneDrive - Texas A&M University-Corpus Christi\\Documents\\Code\\Internet Programming\\Lflores47_WebApp-Db\\WebApp\\WebApp.csproj",
+        "projectUniqueName": "E:\\CODE\\New folder\\Lflores47_WebApp-Db\\WebApp\\WebApp.csproj",
         "projectName": "WebApp",
-        "projectPath": "C:\\Users\\lflores47\\OneDrive - Texas A&M University-Corpus Christi\\Documents\\Code\\Internet Programming\\Lflores47_WebApp-Db\\WebApp\\WebApp.csproj",
-        "packagesPath": "C:\\Users\\lflores47\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lflores47\\OneDrive - Texas A&M University-Corpus Christi\\Documents\\Code\\Internet Programming\\Lflores47_WebApp-Db\\WebApp\\obj\\",
+        "projectPath": "E:\\CODE\\New folder\\Lflores47_WebApp-Db\\WebApp\\WebApp.csproj",
+        "packagesPath": "C:\\Users\\Louie\\.nuget\\packages\\",
+        "outputPath": "E:\\CODE\\New folder\\Lflores47_WebApp-Db\\WebApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lflores47\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Louie\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -46,9 +44,21 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
             "Microsoft.AspNetCore.Identity": {
               "target": "Package",
               "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.2, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -63,6 +73,22 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Security.Cryptography.Xml": {
+              "target": "Package",
+              "version": "[9.*, )"
             }
           },
           "imports": [

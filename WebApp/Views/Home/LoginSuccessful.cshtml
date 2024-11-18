@@ -1,6 +1,8 @@
 @{
-    ViewData["Title"] = "Login Successful";
+    ViewData["Title"] = "LoginSuccessful";
 }
 
-<h1>Welcome, @ViewBag.FirstName @ViewBag.LastName!</h1>
-<p>You have logged in successfully.</p>
+<div class="alert alert-success" role="alert">
+    <h2>Welcome, @ViewBag.FirstName @ViewBag.LastName!</h2>
+    <p>You have successfully logged in.</p>
+</div>
