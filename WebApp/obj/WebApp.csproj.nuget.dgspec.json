@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/louisflores/Documents/GitHub/Lflores47_WebApp-Db/WebApp/WebApp.csproj": {}
+    "/Users/louisflores/Documents/GitHub/Lflores15.github.io/WebApp/WebApp.csproj": {}
   },
   "projects": {
-    "/Users/louisflores/Documents/GitHub/Lflores47_WebApp-Db/WebApp/WebApp.csproj": {
+    "/Users/louisflores/Documents/GitHub/Lflores15.github.io/WebApp/WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/louisflores/Documents/GitHub/Lflores47_WebApp-Db/WebApp/WebApp.csproj",
+        "projectUniqueName": "/Users/louisflores/Documents/GitHub/Lflores15.github.io/WebApp/WebApp.csproj",
         "projectName": "WebApp",
-        "projectPath": "/Users/louisflores/Documents/GitHub/Lflores47_WebApp-Db/WebApp/WebApp.csproj",
+        "projectPath": "/Users/louisflores/Documents/GitHub/Lflores15.github.io/WebApp/WebApp.csproj",
         "packagesPath": "/Users/louisflores/.nuget/packages/",
-        "outputPath": "/Users/louisflores/Documents/GitHub/Lflores47_WebApp-Db/WebApp/obj/",
+        "outputPath": "/Users/louisflores/Documents/GitHub/Lflores15.github.io/WebApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/louisflores/.nuget/NuGet/NuGet.Config"

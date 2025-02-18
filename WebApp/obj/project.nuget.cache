@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "At6MQvsDqnQ=",
+  "dgSpecHash": "K11/inOCgko=",
   "success": true,
-  "projectFilePath": "/Users/louisflores/Documents/GitHub/Lflores47_WebApp-Db/WebApp/WebApp.csproj",
+  "projectFilePath": "/Users/louisflores/Documents/GitHub/Lflores15.github.io/WebApp/WebApp.csproj",
   "expectedPackageFiles": [
     "/Users/louisflores/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",
     "/Users/louisflores/.nuget/packages/azure.identity/1.11.4/azure.identity.1.11.4.nupkg.sha512",
