@@ -1898,7 +1898,7 @@
           }
         }
       },
-      "System.Security.Cryptography.Pkcs/9.0.0": {
+      "System.Security.Cryptography.Pkcs/9.0.2": {
         "type": "package",
         "compile": {
           "lib/net9.0/System.Security.Cryptography.Pkcs.dll": {
@@ -1936,10 +1936,10 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "System.Security.Cryptography.Xml/9.0.0": {
+      "System.Security.Cryptography.Xml/9.0.2": {
         "type": "package",
         "dependencies": {
-          "System.Security.Cryptography.Pkcs": "9.0.0"
+          "System.Security.Cryptography.Pkcs": "9.0.2"
         },
         "compile": {
           "lib/net9.0/System.Security.Cryptography.Xml.dll": {
@@ -5399,10 +5399,10 @@
         "version.txt"
       ]
     },
-    "System.Security.Cryptography.Pkcs/9.0.0": {
-      "sha512": "8tluJF8w9si+2yoHeL8rgVJS6lKvWomTDC8px65Z8MCzzdME5eaPtEQf4OfVGrAxB5fW93ncucy1+221O9EQaw==",
+    "System.Security.Cryptography.Pkcs/9.0.2": {
+      "sha512": "aC9IlCbgompuyQUixa03yEq/fGDLwsSn1tiqFsk/hMDTSxcdf1Ha77SfDgdguLx+sAsuHWAkiXgveDsHdw5bdA==",
       "type": "package",
-      "path": "system.security.cryptography.pkcs/9.0.0",
+      "path": "system.security.cryptography.pkcs/9.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5427,7 +5427,7 @@
         "runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.xml",
         "runtimes/win/lib/net9.0/System.Security.Cryptography.Pkcs.dll",
         "runtimes/win/lib/net9.0/System.Security.Cryptography.Pkcs.xml",
-        "system.security.cryptography.pkcs.9.0.0.nupkg.sha512",
+        "system.security.cryptography.pkcs.9.0.2.nupkg.sha512",
         "system.security.cryptography.pkcs.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -5468,10 +5468,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Security.Cryptography.Xml/9.0.0": {
-      "sha512": "GQZn5wFd+pyOfwWaCbqxG7trQ5ox01oR8kYgWflgtux4HiUNihGEgG2TktRWyH+9bw7NoEju1D41H/upwQeFQw==",
+    "System.Security.Cryptography.Xml/9.0.2": {
+      "sha512": "KuNcSW12CyWvPON/RYwHhKlehPp06a/bZCnFjF4Iyb2dG6xrv1crcogFPFtU4sXxqXyW07FPBbbdZQQoB38pWg==",
       "type": "package",
-      "path": "system.security.cryptography.xml/9.0.0",
+      "path": "system.security.cryptography.xml/9.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5490,7 +5490,7 @@
         "lib/net9.0/System.Security.Cryptography.Xml.xml",
         "lib/netstandard2.0/System.Security.Cryptography.Xml.dll",
         "lib/netstandard2.0/System.Security.Cryptography.Xml.xml",
-        "system.security.cryptography.xml.9.0.0.nupkg.sha512",
+        "system.security.cryptography.xml.9.0.2.nupkg.sha512",
         "system.security.cryptography.xml.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -5784,19 +5784,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Louie\\.nuget\\packages\\": {}
+    "/Users/louisflores/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\CODE\\New folder\\Lflores47_WebApp-Db\\WebApp\\WebApp.csproj",
+      "projectUniqueName": "/Users/louisflores/Documents/GitHub/Lflores47_WebApp-Db/WebApp/WebApp.csproj",
       "projectName": "WebApp",
-      "projectPath": "E:\\CODE\\New folder\\Lflores47_WebApp-Db\\WebApp\\WebApp.csproj",
-      "packagesPath": "C:\\Users\\Louie\\.nuget\\packages\\",
-      "outputPath": "E:\\CODE\\New folder\\Lflores47_WebApp-Db\\WebApp\\obj\\",
+      "projectPath": "/Users/louisflores/Documents/GitHub/Lflores47_WebApp-Db/WebApp/WebApp.csproj",
+      "packagesPath": "/Users/louisflores/.nuget/packages/",
+      "outputPath": "/Users/louisflores/Documents/GitHub/Lflores47_WebApp-Db/WebApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Louie\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/louisflores/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -5818,7 +5818,7 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
+        "auditMode": "direct"
       },
       "SdkAnalysisLevel": "9.0.100"
     },
@@ -5892,7 +5892,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
